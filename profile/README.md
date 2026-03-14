@@ -1,70 +1,71 @@
-# Kint
+<p align="center">
+  <strong>kint</strong>
+</p>
 
-**Solving complex decisions – with just natural language.**
+<h3 align="center">We democratize optimization.</h3>
 
----
+<p align="center">
+  AI-powered optimization that turns complex business decisions<br/>
+  into mathematically precise answers — using just natural language.
+</p>
 
-**Kint** is a next-generation assistant for mathematical optimization.  
-It enables teams, businesses and individuals to describe real-world problems in plain English – and receive optimal solutions in seconds.
-
-No equations. No code. No barriers.
-
----
-
-### 🚀 What we do
-
-Every day, companies face complex decisions:
-
-- How to allocate machines, people, or resources?
-- How to optimize supply chains and reduce costs?
-- How to plan operations under uncertainty?
-
-These are mathematical optimization problems.  
-But traditional tools are hard to use, slow, and require expert knowledge.
-
-**We change that.**  
-Kint turns your natural language input into a precise optimization model, solves it instantly – and gives you clear, explainable results.
+<p align="center">
+  <a href="https://kint.pro">Website</a> · <a href="https://kint.pro/contact">Contact</a>
+</p>
 
 ---
 
-### 💡 How it works (from a user's perspective)
+## The Problem
 
-1. **Describe your problem** – just like you'd explain it to a colleague  
-2. **Our assistant understands** – it analyzes, models and solves it automatically  
-3. **You get results** – optimal decisions, visualized and ready to use  
-4. **You stay in control** – review, adjust or iterate anytime
+Every organization makes thousands of decisions daily — resource allocation, scheduling, pricing, logistics, production planning. Most are based on experience and estimation, not optimization.
+
+Why? Because the tools that solve these problems require deep mathematical expertise. Traditional optimization is powerful, but inaccessible.
+
+**The result: an optimization gap.** Businesses leave measurable value on the table every single day.
+
+## What kint Does
+
+kint closes that gap. We combine mathematical optimization with AI to make optimal decisions accessible to every team — no equations, no code, no PhD required.
+
+**Describe your problem in plain language. Get the optimal answer.**
+
+→ *"How many trucks do I need to handle 100 containers per hour?"*
+→ *"What's the best allocation of my marketing budget across channels?"*
+→ *"How do I minimize production costs while meeting demand?"*
+
+kint understands your question, structures the optimization problem automatically, and delivers precise, explainable results.
+
+## How It Works
+
+1. **Bring your data** — historical observations from your real operations
+2. **Ask your question** — describe what you want to optimize, in your own words
+3. **Get optimal answers** — mathematically verified, fully transparent, ready to act on
+4. **Stay in control** — review, adjust constraints, iterate at any time
+
+## Industries
+
+**Banking & Insurance** — Portfolio optimization, risk management, credit assessment, regulatory compliance, fraud detection, customer segmentation, capital allocation
+
+**Industrial Automation & Manufacturing** — Production scheduling, resource allocation, inventory management, quality control, predictive maintenance, energy optimization, supply chain planning
+
+**Logistics & Operations** — Fleet management, route optimization, warehouse allocation, demand forecasting, capacity planning
+
+## Why kint
+
+- **Accessible** — No mathematical modeling expertise required. Natural language in, optimal decisions out.
+- **Precise** — Built on mathematical optimization, not heuristics. Verified, explainable results.
+- **Integrable** — Embeds into your existing systems, dashboards, and workflows via API.
+- **Domain-agnostic** — Works across industries wherever complex decisions need to be made.
+
+## Get in Touch
+
+We work with enterprises that want to make better decisions — faster and with mathematical certainty.
+
+→ [kint.pro](https://kint.pro)
+→ [Contact us](https://kint.pro/contact)
 
 ---
 
-### 🎯 Who it's for
-
-- Logistics & operations managers  
-- Planners & strategists  
-- Product teams & analysts  
-- Anyone who needs better decisions – without writing code
-
----
-
-### 🧠 Why it matters
-
-Millions of decisions are made every day without optimization – simply because the tools are too complex.
-
-We believe:
-> Optimization should be accessible. Understandable. Instant.
-
-That's what Kint delivers.
-
----
-
-### 🔗 Want to integrate it?
-
-Our assistant can be embedded into your own apps, dashboards or workflows via a clean API.  
-Contact us for early access or partnership opportunities.
-
----
-
-**This is the future of decision-making.  
-And it starts now.**
-
-—
-*The Kint Team*
+<p align="center">
+  <strong>Stop estimating. Start optimizing.</strong>
+</p>
