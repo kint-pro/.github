@@ -1,5 +1,5 @@
 <p align="center">
-  <strong>kint</strong>
+  <img src="https://raw.githubusercontent.com/kint-pro/.github/main/logo/kint-logo-black.webp" alt="kint" width="200">
 </p>
 
 <h3 align="center">Your team knows the business. kint knows the math.</h3>
