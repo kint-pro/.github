@@ -1,0 +1,6 @@
+{
+  "name": "Python Release (kint)",
+  "description": "Build, publish to TestPyPI/PyPI with trusted publishers, create GitHub Release. Uses shared build workflow from kint-pro/.github.",
+  "iconName": "python",
+  "categories": ["Python", "CI/CD"]
+}
