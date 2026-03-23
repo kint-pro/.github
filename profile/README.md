@@ -2,11 +2,11 @@
   <strong>kint</strong>
 </p>
 
-<h3 align="center">We democratize optimization.</h3>
+<h3 align="center">Your team knows the business. kint knows the math.</h3>
 
 <p align="center">
-  AI-powered optimization that turns complex business decisions<br/>
-  into mathematically precise answers — using just natural language.
+  Optimization for every company with data.<br/>
+  Whitebox, blackbox, and everything in between.
 </p>
 
 <p align="center">
@@ -15,57 +15,38 @@
 
 ---
 
-## The Problem
-
-Every organization makes thousands of decisions daily — resource allocation, scheduling, pricing, logistics, production planning. Most are based on experience and estimation, not optimization.
-
-Why? Because the tools that solve these problems require deep mathematical expertise. Traditional optimization is powerful, but inaccessible.
-
-**The result: an optimization gap.** Businesses leave measurable value on the table every single day.
-
 ## What kint Does
 
-kint closes that gap. We combine mathematical optimization with AI to make optimal decisions accessible to every team — no equations, no code, no PhD required.
+kint turns your company's data into better decisions. Teams upload their data, train surrogate models, run simulations, and find optimal decisions. Whether the problem is defined mathematically (whitebox) or learned from historical data (blackbox), kint handles the math so your team can focus on the business.
 
-**Describe your problem in plain language. Get the optimal answer.**
-
-→ *"How many trucks do I need to handle 100 containers per hour?"*
-→ *"What's the best allocation of my marketing budget across channels?"*
-→ *"How do I minimize production costs while meeting demand?"*
-
-kint understands your question, structures the optimization problem automatically, and delivers precise, explainable results.
+Available as **API** and **OEM** for software vendors who want optimization built into their products.
 
 ## How It Works
 
-1. **Bring your data** — historical observations from your real operations
-2. **Ask your question** — describe what you want to optimize, in your own words
-3. **Get optimal answers** — mathematically verified, fully transparent, ready to act on
-4. **Stay in control** — review, adjust constraints, iterate at any time
+1. **Bring your data** — historical observations from your operations
+2. **Train models** — kint learns the structure of your problem from your data
+3. **Simulate and optimize** — run scenarios, find the best decisions
+4. **Integrate** — embed results into your systems via API
 
-## Industries
+## Use Cases
 
-**Banking & Insurance** — Portfolio optimization, risk management, credit assessment, regulatory compliance, fraud detection, customer segmentation, capital allocation
+- **Software vendors** building platforms (TMS, WMS, ERP, MES, APS) who need optimization but can't build it in-house
+- **Route and fleet optimization** in logistics
+- **Production scheduling and machine allocation** in manufacturing
+- **Grid dispatch and maintenance scheduling** in energy
+- **Pricing and assortment planning** in retail
 
-**Industrial Automation & Manufacturing** — Production scheduling, resource allocation, inventory management, quality control, predictive maintenance, energy optimization, supply chain planning
+## Open Source
 
-**Logistics & Operations** — Fleet management, route optimization, warehouse allocation, demand forecasting, capacity planning
-
-## Why kint
-
-- **Accessible** — No mathematical modeling expertise required. Natural language in, optimal decisions out.
-- **Precise** — Built on mathematical optimization, not heuristics. Verified, explainable results.
-- **Integrable** — Embeds into your existing systems, dashboards, and workflows via API.
-- **Domain-agnostic** — Works across industries wherever complex decisions need to be made.
+| Repository | Description |
+|------------|-------------|
+| [ml-experiment-template](https://github.com/kint-pro/ml-experiment-template) | Reusable template for reproducible ML experiments. YAML config, seed management, Parquet results, statistical analysis. |
+| [ml-experiment-stats](https://github.com/kint-pro/ml-experiment-stats) | Statistical analysis engine for ML experiments. Friedman tests, Bayesian comparison, Nemenyi CD diagrams. |
+| [surrox](https://github.com/kint-pro/surrox) | Surrogate-based blackbox optimization framework. XGBoost, LightGBM, Gaussian Processes, Pymoo, TuRBO. |
+| [kint-vault-cli](https://github.com/kint-pro/kint-vault-cli) | Secrets management CLI. Encrypt .env files in your repo. Single binary, zero dependencies. |
 
 ## Get in Touch
 
-We work with enterprises that want to make better decisions — faster and with mathematical certainty.
+We work with software vendors and enterprises that want to make better decisions from their existing data.
 
-→ [kint.pro](https://kint.pro)
-→ [Contact us](https://kint.pro/contact)
-
----
-
-<p align="center">
-  <strong>Stop estimating. Start optimizing.</strong>
-</p>
+→ [kint.pro](https://kint.pro) · [Contact](https://kint.pro/contact)
