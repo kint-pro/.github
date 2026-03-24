@@ -4,13 +4,13 @@
 
 ```
 logo/
-├── favicon-32x32.png              # Legacy favicon (PNG)
+├── favicon.svg                    # SVG favicon with dark mode support (prefers-color-scheme)
 ├── favicons/                      # Favicon variants (multiple sizes)
 │   ├── favicon.ico                # ICO fallback for older browsers
 │   └── favicon-{16..256}.png      # PNG variants
-├── kint-logo-black.webp           # Logo black on transparent (800x438)
-├── kint-logo-white.webp           # Logo white on transparent (800x438)
-├── logos/                         # Branding variants (PNG + WebP)
+├── logos/                         # Branding variants (SVG + PNG + WebP)
+│   ├── kint-logo-black.svg        # Vector logo black (scalable)
+│   ├── kint-logo-white.svg        # Vector logo white (scalable)
 │   ├── kint-logo-{black,white}-transparent.{png,webp}
 │   ├── kint-logo-black-white-bg.{png,webp}
 │   └── kint-logo-white-black-bg.{png,webp}
@@ -35,6 +35,7 @@ Files in `public/` are copied as-is and keep their exact filename. Use for every
 
 | File | Source from this repo | Purpose |
 |------|----------------------|---------|
+| `favicon.svg` | `favicon.svg` | Modern browsers, dark mode support |
 | `favicon.ico` | `favicons/favicon.ico` | Legacy browser fallback |
 | `apple-touch-icon.png` | `pwa/apple-touch-icon.png` | iOS home screen bookmark |
 | `icons/icon-192x192.png` | `pwa/android-chrome-192x192.png` | PWA manifest.json |
@@ -51,8 +52,8 @@ Vite processes these files: hashed filenames for cache busting, inlining of smal
 
 | File | Source from this repo | Purpose |
 |------|----------------------|---------|
-| `kint-logo-white.webp` | `kint-logo-white.webp` | In-app logo (dark background) |
-| `kint-logo-black.webp` | `kint-logo-black.webp` | In-app logo (light background) |
+| `kint-logo-white.webp` | `logos/kint-logo-white-transparent.webp` | In-app logo (dark background) |
+| `kint-logo-black.webp` | `logos/kint-logo-black-transparent.webp` | In-app logo (light background) |
 
 WebP is correct here — served only via `<img>` in components, all modern browsers support WebP.
 
@@ -105,9 +106,7 @@ Test tool: [maskable.app](https://maskable.app/)
 |--------|------|--------|
 | **PNG** or **JPEG** | 1200x630 | [Open Graph Protocol](https://ogp.me/) |
 
-Not included in this repo — needs to be created separately.
-
-## Missing Assets
-
-- [ ] `favicon.svg` — SVG version of the logo for modern browsers (dark mode support)
-- [ ] OG image (1200x630 PNG/JPEG) for social media previews
+| File | Size | Purpose |
+|------|------|---------|
+| `og-image.png` | 1200x630 | Black logo on white — default for light contexts |
+| `og-image-dark.png` | 1200x630 | White logo on dark — alternative for dark contexts |
